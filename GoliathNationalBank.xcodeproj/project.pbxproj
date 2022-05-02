@@ -1,0 +1,1244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0041BD174E3815D381C221D1 /* Pods_GoliathNationalBank_GoliathNationalBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0DA464E5AEB8B131139447 /* Pods_GoliathNationalBank_GoliathNationalBankUITests.framework */; };
+		078728042819B1F500D1259D /* ProductListWireframeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078728032819B1F500D1259D /* ProductListWireframeTests.swift */; };
+		078728082819B5D700D1259D /* AppResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078728072819B5D700D1259D /* AppResolver.swift */; };
+		0787280A2819BF2500D1259D /* AlertUtilsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078728092819BF2500D1259D /* AlertUtilsProtocol.swift */; };
+		0787280C2819BF8800D1259D /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0787280B2819BF8800D1259D /* ViewControllerProtocol.swift */; };
+		07EA97C3281FE15600441A23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 07EA97C2281FE15600441A23 /* README.md */; };
+		07F8223D281E757D0018C4ED /* UINavigationControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8223C281E757D0018C4ED /* UINavigationControllerMock.swift */; };
+		07F8223F281E75930018C4ED /* ProductDetailsPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8223E281E75930018C4ED /* ProductDetailsPresenterMock.swift */; };
+		07F82241281E75A20018C4ED /* ProductDetailsViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F82240281E75A20018C4ED /* ProductDetailsViewMock.swift */; };
+		07F82243281E75B00018C4ED /* ProductDetailsInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F82242281E75B00018C4ED /* ProductDetailsInteractorMock.swift */; };
+		07F82245281E75BE0018C4ED /* ProductDetailsWireframeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F82244281E75BE0018C4ED /* ProductDetailsWireframeMock.swift */; };
+		07F82247281E77890018C4ED /* ServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F82246281E77890018C4ED /* ServiceMock.swift */; };
+		07F82249281E77930018C4ED /* FindMissingRatesMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F82248281E77930018C4ED /* FindMissingRatesMock.swift */; };
+		07F8224B281E77A10018C4ED /* ProductListViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8224A281E77A10018C4ED /* ProductListViewMock.swift */; };
+		07F8224D281E77BA0018C4ED /* ProductListInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8224C281E77BA0018C4ED /* ProductListInteractorMock.swift */; };
+		07F8224F281E77C80018C4ED /* ProductListWireframeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F8224E281E77C80018C4ED /* ProductListWireframeMock.swift */; };
+		07F82251281E782F0018C4ED /* ProductListPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F82250281E782F0018C4ED /* ProductListPresenterMock.swift */; };
+		282118272819817E00B9E561 /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282118262819817E00B9E561 /* UIStoryboard+Extensions.swift */; };
+		28CB6B9C27E67593007DBE33 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB6B9B27E67593007DBE33 /* main.swift */; };
+		28CB6B9E27E675A9007DBE33 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB6B9D27E675A9007DBE33 /* TestingAppDelegate.swift */; };
+		383213BD271DE0F10044DA39 /* FindMissingRatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383213BC271DE0F10044DA39 /* FindMissingRatesTests.swift */; };
+		383213C8271DE7720044DA39 /* DecimalExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383213C7271DE7720044DA39 /* DecimalExtensionsTests.swift */; };
+		383213D8271DFD570044DA39 /* ProductDetailsInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383213D7271DFD570044DA39 /* ProductDetailsInteractorTests.swift */; };
+		383213DE271E00420044DA39 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383213DD271E00420044DA39 /* TestData.swift */; };
+		3833CEF0271D532A00241BF6 /* ProductDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833CEEF271D532A00241BF6 /* ProductDetailsCell.swift */; };
+		3833CEF5271D71E300241BF6 /* Decimal+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833CEF4271D71E300241BF6 /* Decimal+Extensions.swift */; };
+		3833CF02271D9C8500241BF6 /* BusinessAssemby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833CF01271D9C8500241BF6 /* BusinessAssemby.swift */; };
+		3833CF07271D9D3F00241BF6 /* FindMissingRatesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3833CF06271D9D3F00241BF6 /* FindMissingRatesProtocol.swift */; };
+		4E23EB81BC31711413BBD8DC /* Pods_GoliathNationalBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D289CCF5CFC080E5715C75EB /* Pods_GoliathNationalBankTests.framework */; };
+		9545846F27441A73006476F6 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545846E27441A73006476F6 /* String+Extensions.swift */; };
+		9545847F27441C34006476F6 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545847E27441C34006476F6 /* StringExtensionsTests.swift */; };
+		9545848B27450CC7006476F6 /* AppConstantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545848A27450CC7006476F6 /* AppConstantsTests.swift */; };
+		954584A327451768006476F6 /* Rates.json in Resources */ = {isa = PBXBuildFile; fileRef = 954584A227451768006476F6 /* Rates.json */; };
+		954584AB274517D0006476F6 /* Transactions.json in Resources */ = {isa = PBXBuildFile; fileRef = 954584AA274517D0006476F6 /* Transactions.json */; };
+		954584B627457A9B006476F6 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954584B527457A9B006476F6 /* TestHelpers.swift */; };
+		954584CC2746B094006476F6 /* Result+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954584CB2746B094006476F6 /* Result+Extensions.swift */; };
+		9545852B2747B19A006476F6 /* AlertUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9545852A2747B19A006476F6 /* AlertUtilsTests.swift */; };
+		954959E3273000E10094845D /* ProductDetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954959E2273000E10094845D /* ProductDetailsPresenterTests.swift */; };
+		954E15AE273BE68700190FF2 /* ProductListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E15AD273BE68700190FF2 /* ProductListViewControllerTests.swift */; };
+		954E15B3273BEAAA00190FF2 /* ProductDetailsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E15B2273BEAAA00190FF2 /* ProductDetailsViewControllerTests.swift */; };
+		954E16252741AD5500190FF2 /* ProductDetailsCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E16242741AD5500190FF2 /* ProductDetailsCellTests.swift */; };
+		954E1633274278CA00190FF2 /* ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954E1632274278CA00190FF2 /* ServiceTests.swift */; };
+		954FA7712730754900AAFCDD /* ProductListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FA7702730754900AAFCDD /* ProductListInteractorTests.swift */; };
+		954FA78127307A8700AAFCDD /* CurrencyRatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954FA78027307A8700AAFCDD /* CurrencyRatesTests.swift */; };
+		95555C55271C2BC80024A049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C54271C2BC80024A049 /* AppDelegate.swift */; };
+		95555C5C271C2BC80024A049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95555C5A271C2BC80024A049 /* Main.storyboard */; };
+		95555C5E271C2BDE0024A049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95555C5D271C2BDE0024A049 /* Assets.xcassets */; };
+		95555C61271C2BDE0024A049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95555C5F271C2BDE0024A049 /* LaunchScreen.storyboard */; };
+		95555C77271C2BDF0024A049 /* GoliathNationalBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C76271C2BDF0024A049 /* GoliathNationalBankUITests.swift */; };
+		95555C92271C2E080024A049 /* ProductListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C8D271C2E080024A049 /* ProductListContract.swift */; };
+		95555C93271C2E080024A049 /* ProductListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C8E271C2E080024A049 /* ProductListPresenter.swift */; };
+		95555C94271C2E080024A049 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C8F271C2E080024A049 /* ProductListViewController.swift */; };
+		95555C95271C2E080024A049 /* ProductListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C90271C2E080024A049 /* ProductListInteractor.swift */; };
+		95555C96271C2E080024A049 /* ProductListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C91271C2E080024A049 /* ProductListWireframe.swift */; };
+		95555CA1271C2E6D0024A049 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C9B271C2E6D0024A049 /* BaseWireframe.swift */; };
+		95555CA4271C2E6D0024A049 /* PresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555C9E271C2E6D0024A049 /* PresenterProtocol.swift */; };
+		95555CD0271C311B0024A049 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CCB271C311B0024A049 /* Service.swift */; };
+		95555CD1271C311B0024A049 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CCC271C311B0024A049 /* ServiceProtocol.swift */; };
+		95555CD2271C311B0024A049 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CCD271C311B0024A049 /* ServiceError.swift */; };
+		95555CD4271C311B0024A049 /* DataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CCF271C311B0024A049 /* DataAssembly.swift */; };
+		95555CE5271C32550024A049 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CE3271C32550024A049 /* AppConstants.swift */; };
+		95555CE6271C32550024A049 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CE4271C32550024A049 /* AppNavigationController.swift */; };
+		95555CEF271C33920024A049 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CEE271C33920024A049 /* Rate.swift */; };
+		95555CF7271C33A30024A049 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555CF6271C33A30024A049 /* Transaction.swift */; };
+		95555D03271C38E30024A049 /* AlertUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95555D02271C38E20024A049 /* AlertUtils.swift */; };
+		9568D86C271C3FAF0085C036 /* ProductListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D86B271C3FAF0085C036 /* ProductListAssembly.swift */; };
+		9568D877271C470D0085C036 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D876271C470D0085C036 /* Product.swift */; };
+		9568D880271C4C3F0085C036 /* ProductDetailsContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D87B271C4C3F0085C036 /* ProductDetailsContract.swift */; };
+		9568D881271C4C3F0085C036 /* ProductDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D87C271C4C3F0085C036 /* ProductDetailsPresenter.swift */; };
+		9568D882271C4C3F0085C036 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D87D271C4C3F0085C036 /* ProductDetailsViewController.swift */; };
+		9568D883271C4C3F0085C036 /* ProductDetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D87E271C4C3F0085C036 /* ProductDetailsInteractor.swift */; };
+		9568D884271C4C3F0085C036 /* ProductDetailsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D87F271C4C3F0085C036 /* ProductDetailsWireframe.swift */; };
+		9568D889271C4F4C0085C036 /* ProductDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D888271C4F4C0085C036 /* ProductDetailsAssembly.swift */; };
+		9568D88E271C79930085C036 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D88D271C79930085C036 /* Array+Extensions.swift */; };
+		9568D893271C9FA70085C036 /* FindMissingRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568D892271C9FA70085C036 /* FindMissingRates.swift */; };
+		9569777D271CB2CD001EE87F /* CurrencyRates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569777C271CB2CD001EE87F /* CurrencyRates.swift */; };
+		95C52F08272FF7DD005ED92D /* ArrayExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C52F07272FF7DD005ED92D /* ArrayExtensionsTests.swift */; };
+		95C52F10272FF9F1005ED92D /* ProductListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C52F0F272FF9F1005ED92D /* ProductListPresenterTests.swift */; };
+		CB7B7E2B6E1B70FD7F3D7023 /* Pods_GoliathNationalBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671BA31123F425D8366FF774 /* Pods_GoliathNationalBank.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95555C68271C2BDF0024A049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95555C49271C2BC70024A049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95555C50271C2BC80024A049;
+			remoteInfo = GoliathNationalBank;
+		};
+		95555C73271C2BDF0024A049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95555C49271C2BC70024A049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95555C50271C2BC80024A049;
+			remoteInfo = GoliathNationalBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078728032819B1F500D1259D /* ProductListWireframeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListWireframeTests.swift; sourceTree = "<group>"; };
+		078728072819B5D700D1259D /* AppResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppResolver.swift; sourceTree = "<group>"; };
+		078728092819BF2500D1259D /* AlertUtilsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtilsProtocol.swift; sourceTree = "<group>"; };
+		0787280B2819BF8800D1259D /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		07EA97C2281FE15600441A23 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07F8223C281E757D0018C4ED /* UINavigationControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerMock.swift; sourceTree = "<group>"; };
+		07F8223E281E75930018C4ED /* ProductDetailsPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsPresenterMock.swift; sourceTree = "<group>"; };
+		07F82240281E75A20018C4ED /* ProductDetailsViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewMock.swift; sourceTree = "<group>"; };
+		07F82242281E75B00018C4ED /* ProductDetailsInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsInteractorMock.swift; sourceTree = "<group>"; };
+		07F82244281E75BE0018C4ED /* ProductDetailsWireframeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsWireframeMock.swift; sourceTree = "<group>"; };
+		07F82246281E77890018C4ED /* ServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMock.swift; sourceTree = "<group>"; };
+		07F82248281E77930018C4ED /* FindMissingRatesMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMissingRatesMock.swift; sourceTree = "<group>"; };
+		07F8224A281E77A10018C4ED /* ProductListViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewMock.swift; sourceTree = "<group>"; };
+		07F8224C281E77BA0018C4ED /* ProductListInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractorMock.swift; sourceTree = "<group>"; };
+		07F8224E281E77C80018C4ED /* ProductListWireframeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListWireframeMock.swift; sourceTree = "<group>"; };
+		07F82250281E782F0018C4ED /* ProductListPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenterMock.swift; sourceTree = "<group>"; };
+		282118262819817E00B9E561 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
+		28CB6B9B27E67593007DBE33 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		28CB6B9D27E675A9007DBE33 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
+		383213BC271DE0F10044DA39 /* FindMissingRatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMissingRatesTests.swift; sourceTree = "<group>"; };
+		383213C7271DE7720044DA39 /* DecimalExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalExtensionsTests.swift; sourceTree = "<group>"; };
+		383213D7271DFD570044DA39 /* ProductDetailsInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsInteractorTests.swift; sourceTree = "<group>"; };
+		383213DD271E00420044DA39 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		3833CEEF271D532A00241BF6 /* ProductDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsCell.swift; sourceTree = "<group>"; };
+		3833CEF4271D71E300241BF6 /* Decimal+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Extensions.swift"; sourceTree = "<group>"; };
+		3833CF01271D9C8500241BF6 /* BusinessAssemby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessAssemby.swift; sourceTree = "<group>"; };
+		3833CF06271D9D3F00241BF6 /* FindMissingRatesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMissingRatesProtocol.swift; sourceTree = "<group>"; };
+		4CAD4D05E067A0E9D1E87141 /* Pods-GoliathNationalBank-GoliathNationalBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBank-GoliathNationalBankUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoliathNationalBank-GoliathNationalBankUITests/Pods-GoliathNationalBank-GoliathNationalBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		671BA31123F425D8366FF774 /* Pods_GoliathNationalBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoliathNationalBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682209618D01FE9304548B06 /* Pods-GoliathNationalBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBank.release.xcconfig"; path = "Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank.release.xcconfig"; sourceTree = "<group>"; };
+		69AD1F2832C67F7699DA77BC /* Pods-GoliathNationalBank-GoliathNationalBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBank-GoliathNationalBankUITests.release.xcconfig"; path = "Target Support Files/Pods-GoliathNationalBank-GoliathNationalBankUITests/Pods-GoliathNationalBank-GoliathNationalBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		748E15DB2133E796745E05BE /* Pods-GoliathNationalBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBank.debug.xcconfig"; path = "Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank.debug.xcconfig"; sourceTree = "<group>"; };
+		9545846E27441A73006476F6 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		9545847E27441C34006476F6 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
+		9545848A27450CC7006476F6 /* AppConstantsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstantsTests.swift; sourceTree = "<group>"; };
+		954584A227451768006476F6 /* Rates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Rates.json; sourceTree = "<group>"; };
+		954584AA274517D0006476F6 /* Transactions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Transactions.json; sourceTree = "<group>"; };
+		954584B527457A9B006476F6 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		954584CB2746B094006476F6 /* Result+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+Extensions.swift"; sourceTree = "<group>"; };
+		9545852A2747B19A006476F6 /* AlertUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUtilsTests.swift; sourceTree = "<group>"; };
+		954959E2273000E10094845D /* ProductDetailsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsPresenterTests.swift; sourceTree = "<group>"; };
+		954E15AD273BE68700190FF2 /* ProductListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewControllerTests.swift; sourceTree = "<group>"; };
+		954E15B2273BEAAA00190FF2 /* ProductDetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewControllerTests.swift; sourceTree = "<group>"; };
+		954E16242741AD5500190FF2 /* ProductDetailsCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsCellTests.swift; sourceTree = "<group>"; };
+		954E1632274278CA00190FF2 /* ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTests.swift; sourceTree = "<group>"; };
+		954FA7702730754900AAFCDD /* ProductListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractorTests.swift; sourceTree = "<group>"; };
+		954FA78027307A8700AAFCDD /* CurrencyRatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRatesTests.swift; sourceTree = "<group>"; };
+		95555C51271C2BC80024A049 /* GoliathNationalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoliathNationalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95555C54271C2BC80024A049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95555C5B271C2BC80024A049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95555C5D271C2BDE0024A049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95555C60271C2BDE0024A049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95555C62271C2BDE0024A049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95555C67271C2BDF0024A049 /* GoliathNationalBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoliathNationalBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95555C6D271C2BDF0024A049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95555C72271C2BDF0024A049 /* GoliathNationalBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoliathNationalBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95555C76271C2BDF0024A049 /* GoliathNationalBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoliathNationalBankUITests.swift; sourceTree = "<group>"; };
+		95555C78271C2BDF0024A049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95555C8D271C2E080024A049 /* ProductListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListContract.swift; sourceTree = "<group>"; };
+		95555C8E271C2E080024A049 /* ProductListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenter.swift; sourceTree = "<group>"; };
+		95555C8F271C2E080024A049 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		95555C90271C2E080024A049 /* ProductListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListInteractor.swift; sourceTree = "<group>"; };
+		95555C91271C2E080024A049 /* ProductListWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListWireframe.swift; sourceTree = "<group>"; };
+		95555C9B271C2E6D0024A049 /* BaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		95555C9E271C2E6D0024A049 /* PresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresenterProtocol.swift; sourceTree = "<group>"; };
+		95555CCB271C311B0024A049 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		95555CCC271C311B0024A049 /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		95555CCD271C311B0024A049 /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		95555CCF271C311B0024A049 /* DataAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAssembly.swift; sourceTree = "<group>"; };
+		95555CE3271C32550024A049 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		95555CE4271C32550024A049 /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		95555CEE271C33920024A049 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		95555CF6271C33A30024A049 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		95555D02271C38E20024A049 /* AlertUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertUtils.swift; sourceTree = "<group>"; };
+		9568D86B271C3FAF0085C036 /* ProductListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListAssembly.swift; sourceTree = "<group>"; };
+		9568D876271C470D0085C036 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9568D87B271C4C3F0085C036 /* ProductDetailsContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsContract.swift; sourceTree = "<group>"; };
+		9568D87C271C4C3F0085C036 /* ProductDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsPresenter.swift; sourceTree = "<group>"; };
+		9568D87D271C4C3F0085C036 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		9568D87E271C4C3F0085C036 /* ProductDetailsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsInteractor.swift; sourceTree = "<group>"; };
+		9568D87F271C4C3F0085C036 /* ProductDetailsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsWireframe.swift; sourceTree = "<group>"; };
+		9568D888271C4F4C0085C036 /* ProductDetailsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsAssembly.swift; sourceTree = "<group>"; };
+		9568D88D271C79930085C036 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		9568D892271C9FA70085C036 /* FindMissingRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMissingRates.swift; sourceTree = "<group>"; };
+		9569777C271CB2CD001EE87F /* CurrencyRates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRates.swift; sourceTree = "<group>"; };
+		95C52F07272FF7DD005ED92D /* ArrayExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionsTests.swift; sourceTree = "<group>"; };
+		95C52F0F272FF9F1005ED92D /* ProductListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListPresenterTests.swift; sourceTree = "<group>"; };
+		A2F76261B73FE3EEEE5D7033 /* Pods-GoliathNationalBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBankTests.release.xcconfig"; path = "Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6CE9C883E1F0102CFAE769C /* Pods-GoliathNationalBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoliathNationalBankTests.debug.xcconfig"; path = "Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D289CCF5CFC080E5715C75EB /* Pods_GoliathNationalBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoliathNationalBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0DA464E5AEB8B131139447 /* Pods_GoliathNationalBank_GoliathNationalBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoliathNationalBank_GoliathNationalBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95555C4E271C2BC80024A049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7B7E2B6E1B70FD7F3D7023 /* Pods_GoliathNationalBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95555C64271C2BDF0024A049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E23EB81BC31711413BBD8DC /* Pods_GoliathNationalBankTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95555C6F271C2BDF0024A049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0041BD174E3815D381C221D1 /* Pods_GoliathNationalBank_GoliathNationalBankUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078728052819B35100D1259D /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				078728062819B35C00D1259D /* Assemblers */,
+				078728072819B5D700D1259D /* AppResolver.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		078728062819B35C00D1259D /* Assemblers */ = {
+			isa = PBXGroup;
+			children = (
+				3833CF01271D9C8500241BF6 /* BusinessAssemby.swift */,
+				95555CCF271C311B0024A049 /* DataAssembly.swift */,
+				9568D888271C4F4C0085C036 /* ProductDetailsAssembly.swift */,
+				9568D86B271C3FAF0085C036 /* ProductListAssembly.swift */,
+			);
+			path = Assemblers;
+			sourceTree = "<group>";
+		};
+		07F8223B281E75700018C4ED /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				07F82248281E77930018C4ED /* FindMissingRatesMock.swift */,
+				07F82242281E75B00018C4ED /* ProductDetailsInteractorMock.swift */,
+				07F8223E281E75930018C4ED /* ProductDetailsPresenterMock.swift */,
+				07F82240281E75A20018C4ED /* ProductDetailsViewMock.swift */,
+				07F82244281E75BE0018C4ED /* ProductDetailsWireframeMock.swift */,
+				07F8224C281E77BA0018C4ED /* ProductListInteractorMock.swift */,
+				07F82250281E782F0018C4ED /* ProductListPresenterMock.swift */,
+				07F8224A281E77A10018C4ED /* ProductListViewMock.swift */,
+				07F8224E281E77C80018C4ED /* ProductListWireframeMock.swift */,
+				07F82246281E77890018C4ED /* ServiceMock.swift */,
+				07F8223C281E757D0018C4ED /* UINavigationControllerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		2426DD4C52602929DA08AD1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				748E15DB2133E796745E05BE /* Pods-GoliathNationalBank.debug.xcconfig */,
+				682209618D01FE9304548B06 /* Pods-GoliathNationalBank.release.xcconfig */,
+				4CAD4D05E067A0E9D1E87141 /* Pods-GoliathNationalBank-GoliathNationalBankUITests.debug.xcconfig */,
+				69AD1F2832C67F7699DA77BC /* Pods-GoliathNationalBank-GoliathNationalBankUITests.release.xcconfig */,
+				C6CE9C883E1F0102CFAE769C /* Pods-GoliathNationalBankTests.debug.xcconfig */,
+				A2F76261B73FE3EEEE5D7033 /* Pods-GoliathNationalBankTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		282118282819818D00B9E561 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9568D88D271C79930085C036 /* Array+Extensions.swift */,
+				3833CEF4271D71E300241BF6 /* Decimal+Extensions.swift */,
+				9545846E27441A73006476F6 /* String+Extensions.swift */,
+				282118262819817E00B9E561 /* UIStoryboard+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		383213DC271E00360044DA39 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				954584A12745173F006476F6 /* JsonResponses */,
+				383213DD271E00420044DA39 /* TestData.swift */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		9545848927450CB0006476F6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9545848A27450CC7006476F6 /* AppConstantsTests.swift */,
+				28CB6B9D27E675A9007DBE33 /* TestingAppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		954584A12745173F006476F6 /* JsonResponses */ = {
+			isa = PBXGroup;
+			children = (
+				954584A227451768006476F6 /* Rates.json */,
+				954584AA274517D0006476F6 /* Transactions.json */,
+			);
+			path = JsonResponses;
+			sourceTree = "<group>";
+		};
+		954584CA2746B07A006476F6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				954584CB2746B094006476F6 /* Result+Extensions.swift */,
+				954584B527457A9B006476F6 /* TestHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		954E16292742784300190FF2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				07F8223B281E75700018C4ED /* Mocks */,
+				954FA77927307A5300AAFCDD /* ProductDetails */,
+				954FA77827307A4300AAFCDD /* ProductList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		954E1630274278B700190FF2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				954E1631274278BC00190FF2 /* Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		954E1631274278BC00190FF2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				954E1632274278CA00190FF2 /* ServiceTests.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		954E163A2742BD3800190FF2 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				954FA78027307A8700AAFCDD /* CurrencyRatesTests.swift */,
+				383213BC271DE0F10044DA39 /* FindMissingRatesTests.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		954E16442742BD5A00190FF2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				95C52F07272FF7DD005ED92D /* ArrayExtensionsTests.swift */,
+				383213C7271DE7720044DA39 /* DecimalExtensionsTests.swift */,
+				9545847E27441C34006476F6 /* StringExtensionsTests.swift */,
+				9545852A2747B19A006476F6 /* AlertUtilsTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		954FA77827307A4300AAFCDD /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				954FA7702730754900AAFCDD /* ProductListInteractorTests.swift */,
+				95C52F0F272FF9F1005ED92D /* ProductListPresenterTests.swift */,
+				954E15AD273BE68700190FF2 /* ProductListViewControllerTests.swift */,
+				078728032819B1F500D1259D /* ProductListWireframeTests.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		954FA77927307A5300AAFCDD /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				954E16242741AD5500190FF2 /* ProductDetailsCellTests.swift */,
+				383213D7271DFD570044DA39 /* ProductDetailsInteractorTests.swift */,
+				954959E2273000E10094845D /* ProductDetailsPresenterTests.swift */,
+				954E15B2273BEAAA00190FF2 /* ProductDetailsViewControllerTests.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		95555C48271C2BC70024A049 = {
+			isa = PBXGroup;
+			children = (
+				07EA97C2281FE15600441A23 /* README.md */,
+				95555C53271C2BC80024A049 /* GoliathNationalBank */,
+				95555C6A271C2BDF0024A049 /* GoliathNationalBankTests */,
+				95555C75271C2BDF0024A049 /* GoliathNationalBankUITests */,
+				95555C52271C2BC80024A049 /* Products */,
+				2426DD4C52602929DA08AD1B /* Pods */,
+				AEB0A364F2F8CD7A1F3BB446 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95555C52271C2BC80024A049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95555C51271C2BC80024A049 /* GoliathNationalBank.app */,
+				95555C67271C2BDF0024A049 /* GoliathNationalBankTests.xctest */,
+				95555C72271C2BDF0024A049 /* GoliathNationalBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95555C53271C2BC80024A049 /* GoliathNationalBank */ = {
+			isa = PBXGroup;
+			children = (
+				95555C62271C2BDE0024A049 /* Info.plist */,
+				95555C5D271C2BDE0024A049 /* Assets.xcassets */,
+				95555CE2271C322B0024A049 /* Application */,
+				95555C9A271C2E6D0024A049 /* Base */,
+				95697781271CB7E6001EE87F /* Business */,
+				078728052819B35100D1259D /* DependencyInjection */,
+				95555CC9271C30F60024A049 /* Model */,
+				95555C87271C2D3E0024A049 /* Screens */,
+				95555D01271C38A60024A049 /* Utils */,
+			);
+			path = GoliathNationalBank;
+			sourceTree = "<group>";
+		};
+		95555C6A271C2BDF0024A049 /* GoliathNationalBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				95555C6D271C2BDF0024A049 /* Info.plist */,
+				9545848927450CB0006476F6 /* Application */,
+				954E163A2742BD3800190FF2 /* Business */,
+				954584CA2746B07A006476F6 /* Helpers */,
+				954E1630274278B700190FF2 /* Model */,
+				954E16292742784300190FF2 /* Screens */,
+				383213DC271E00360044DA39 /* TestData */,
+				954E16442742BD5A00190FF2 /* Utils */,
+			);
+			path = GoliathNationalBankTests;
+			sourceTree = "<group>";
+		};
+		95555C75271C2BDF0024A049 /* GoliathNationalBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95555C76271C2BDF0024A049 /* GoliathNationalBankUITests.swift */,
+				95555C78271C2BDF0024A049 /* Info.plist */,
+			);
+			path = GoliathNationalBankUITests;
+			sourceTree = "<group>";
+		};
+		95555C87271C2D3E0024A049 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				95555C89271C2D750024A049 /* ProductDetails */,
+				95555C88271C2D660024A049 /* ProductList */,
+				95555C5F271C2BDE0024A049 /* LaunchScreen.storyboard */,
+				95555C5A271C2BC80024A049 /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		95555C88271C2D660024A049 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				95555C8D271C2E080024A049 /* ProductListContract.swift */,
+				95555C90271C2E080024A049 /* ProductListInteractor.swift */,
+				95555C8E271C2E080024A049 /* ProductListPresenter.swift */,
+				95555C8F271C2E080024A049 /* ProductListViewController.swift */,
+				95555C91271C2E080024A049 /* ProductListWireframe.swift */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
+		95555C89271C2D750024A049 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				3833CEEF271D532A00241BF6 /* ProductDetailsCell.swift */,
+				9568D87B271C4C3F0085C036 /* ProductDetailsContract.swift */,
+				9568D87E271C4C3F0085C036 /* ProductDetailsInteractor.swift */,
+				9568D87C271C4C3F0085C036 /* ProductDetailsPresenter.swift */,
+				9568D87D271C4C3F0085C036 /* ProductDetailsViewController.swift */,
+				9568D87F271C4C3F0085C036 /* ProductDetailsWireframe.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		95555C9A271C2E6D0024A049 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				95555C9B271C2E6D0024A049 /* BaseWireframe.swift */,
+				95555C9E271C2E6D0024A049 /* PresenterProtocol.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		95555CC9271C30F60024A049 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95555CCA271C31000024A049 /* Data */,
+				95555CED271C33640024A049 /* Entities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95555CCA271C31000024A049 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				95555CCB271C311B0024A049 /* Service.swift */,
+				95555CCD271C311B0024A049 /* ServiceError.swift */,
+				95555CCC271C311B0024A049 /* ServiceProtocol.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		95555CE2271C322B0024A049 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				95555CE3271C32550024A049 /* AppConstants.swift */,
+				95555C54271C2BC80024A049 /* AppDelegate.swift */,
+				95555CE4271C32550024A049 /* AppNavigationController.swift */,
+				28CB6B9B27E67593007DBE33 /* main.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		95555CED271C33640024A049 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9568D876271C470D0085C036 /* Product.swift */,
+				95555CEE271C33920024A049 /* Rate.swift */,
+				95555CF6271C33A30024A049 /* Transaction.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		95555D01271C38A60024A049 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				95555D02271C38E20024A049 /* AlertUtils.swift */,
+				078728092819BF2500D1259D /* AlertUtilsProtocol.swift */,
+				0787280B2819BF8800D1259D /* ViewControllerProtocol.swift */,
+				282118282819818D00B9E561 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		95697781271CB7E6001EE87F /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				9569777C271CB2CD001EE87F /* CurrencyRates.swift */,
+				9568D892271C9FA70085C036 /* FindMissingRates.swift */,
+				3833CF06271D9D3F00241BF6 /* FindMissingRatesProtocol.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		AEB0A364F2F8CD7A1F3BB446 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				671BA31123F425D8366FF774 /* Pods_GoliathNationalBank.framework */,
+				FA0DA464E5AEB8B131139447 /* Pods_GoliathNationalBank_GoliathNationalBankUITests.framework */,
+				D289CCF5CFC080E5715C75EB /* Pods_GoliathNationalBankTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95555C50271C2BC80024A049 /* GoliathNationalBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95555C7B271C2BDF0024A049 /* Build configuration list for PBXNativeTarget "GoliathNationalBank" */;
+			buildPhases = (
+				8700966EC6E023F7ED2933F9 /* [CP] Check Pods Manifest.lock */,
+				95555C4D271C2BC80024A049 /* Sources */,
+				95555C4E271C2BC80024A049 /* Frameworks */,
+				95555C4F271C2BC80024A049 /* Resources */,
+				FED06C5DDDDFF606DC4AB152 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoliathNationalBank;
+			productName = GoliathNationalBank;
+			productReference = 95555C51271C2BC80024A049 /* GoliathNationalBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95555C66271C2BDF0024A049 /* GoliathNationalBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95555C7E271C2BDF0024A049 /* Build configuration list for PBXNativeTarget "GoliathNationalBankTests" */;
+			buildPhases = (
+				FF6DC16A29894B5207E3A4AD /* [CP] Check Pods Manifest.lock */,
+				95555C63271C2BDF0024A049 /* Sources */,
+				95555C64271C2BDF0024A049 /* Frameworks */,
+				95555C65271C2BDF0024A049 /* Resources */,
+				B2DBCEB2F3C61F198127123D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95555C69271C2BDF0024A049 /* PBXTargetDependency */,
+			);
+			name = GoliathNationalBankTests;
+			productName = GoliathNationalBankTests;
+			productReference = 95555C67271C2BDF0024A049 /* GoliathNationalBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95555C71271C2BDF0024A049 /* GoliathNationalBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95555C81271C2BDF0024A049 /* Build configuration list for PBXNativeTarget "GoliathNationalBankUITests" */;
+			buildPhases = (
+				90FE12E57461250BEC2DAB05 /* [CP] Check Pods Manifest.lock */,
+				95555C6E271C2BDF0024A049 /* Sources */,
+				95555C6F271C2BDF0024A049 /* Frameworks */,
+				95555C70271C2BDF0024A049 /* Resources */,
+				8FDC6D447F81D6A06791DC47 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95555C74271C2BDF0024A049 /* PBXTargetDependency */,
+			);
+			name = GoliathNationalBankUITests;
+			productName = GoliathNationalBankUITests;
+			productReference = 95555C72271C2BDF0024A049 /* GoliathNationalBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95555C49271C2BC70024A049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					95555C50271C2BC80024A049 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					95555C66271C2BDF0024A049 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 95555C50271C2BC80024A049;
+					};
+					95555C71271C2BDF0024A049 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 95555C50271C2BC80024A049;
+					};
+				};
+			};
+			buildConfigurationList = 95555C4C271C2BC70024A049 /* Build configuration list for PBXProject "GoliathNationalBank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95555C48271C2BC70024A049;
+			productRefGroup = 95555C52271C2BC80024A049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95555C50271C2BC80024A049 /* GoliathNationalBank */,
+				95555C66271C2BDF0024A049 /* GoliathNationalBankTests */,
+				95555C71271C2BDF0024A049 /* GoliathNationalBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95555C4F271C2BC80024A049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95555C5E271C2BDE0024A049 /* Assets.xcassets in Resources */,
+				95555C61271C2BDE0024A049 /* LaunchScreen.storyboard in Resources */,
+				07EA97C3281FE15600441A23 /* README.md in Resources */,
+				95555C5C271C2BC80024A049 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95555C65271C2BDF0024A049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954584A327451768006476F6 /* Rates.json in Resources */,
+				954584AB274517D0006476F6 /* Transactions.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95555C70271C2BDF0024A049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8700966EC6E023F7ED2933F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoliathNationalBank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDC6D447F81D6A06791DC47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBank-GoliathNationalBankUITests/Pods-GoliathNationalBank-GoliathNationalBankUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBank-GoliathNationalBankUITests/Pods-GoliathNationalBank-GoliathNationalBankUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBank-GoliathNationalBankUITests/Pods-GoliathNationalBank-GoliathNationalBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90FE12E57461250BEC2DAB05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoliathNationalBank-GoliathNationalBankUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2DBCEB2F3C61F198127123D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBankTests/Pods-GoliathNationalBankTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED06C5DDDDFF606DC4AB152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoliathNationalBank/Pods-GoliathNationalBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF6DC16A29894B5207E3A4AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoliathNationalBankTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95555C4D271C2BC80024A049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95555D03271C38E30024A049 /* AlertUtils.swift in Sources */,
+				95555CD0271C311B0024A049 /* Service.swift in Sources */,
+				0787280A2819BF2500D1259D /* AlertUtilsProtocol.swift in Sources */,
+				95555CD2271C311B0024A049 /* ServiceError.swift in Sources */,
+				95555CD1271C311B0024A049 /* ServiceProtocol.swift in Sources */,
+				95555CE5271C32550024A049 /* AppConstants.swift in Sources */,
+				95555C55271C2BC80024A049 /* AppDelegate.swift in Sources */,
+				95555CE6271C32550024A049 /* AppNavigationController.swift in Sources */,
+				9568D88E271C79930085C036 /* Array+Extensions.swift in Sources */,
+				95555CA1271C2E6D0024A049 /* BaseWireframe.swift in Sources */,
+				3833CF02271D9C8500241BF6 /* BusinessAssemby.swift in Sources */,
+				9569777D271CB2CD001EE87F /* CurrencyRates.swift in Sources */,
+				95555CD4271C311B0024A049 /* DataAssembly.swift in Sources */,
+				3833CEF5271D71E300241BF6 /* Decimal+Extensions.swift in Sources */,
+				9568D893271C9FA70085C036 /* FindMissingRates.swift in Sources */,
+				3833CF07271D9D3F00241BF6 /* FindMissingRatesProtocol.swift in Sources */,
+				0787280C2819BF8800D1259D /* ViewControllerProtocol.swift in Sources */,
+				95555CA4271C2E6D0024A049 /* PresenterProtocol.swift in Sources */,
+				9568D877271C470D0085C036 /* Product.swift in Sources */,
+				9568D889271C4F4C0085C036 /* ProductDetailsAssembly.swift in Sources */,
+				3833CEF0271D532A00241BF6 /* ProductDetailsCell.swift in Sources */,
+				9568D883271C4C3F0085C036 /* ProductDetailsInteractor.swift in Sources */,
+				9568D880271C4C3F0085C036 /* ProductDetailsContract.swift in Sources */,
+				9568D881271C4C3F0085C036 /* ProductDetailsPresenter.swift in Sources */,
+				9568D882271C4C3F0085C036 /* ProductDetailsViewController.swift in Sources */,
+				9568D884271C4C3F0085C036 /* ProductDetailsWireframe.swift in Sources */,
+				9568D86C271C3FAF0085C036 /* ProductListAssembly.swift in Sources */,
+				95555C95271C2E080024A049 /* ProductListInteractor.swift in Sources */,
+				95555C92271C2E080024A049 /* ProductListContract.swift in Sources */,
+				95555C93271C2E080024A049 /* ProductListPresenter.swift in Sources */,
+				078728082819B5D700D1259D /* AppResolver.swift in Sources */,
+				95555C94271C2E080024A049 /* ProductListViewController.swift in Sources */,
+				95555C96271C2E080024A049 /* ProductListWireframe.swift in Sources */,
+				95555CEF271C33920024A049 /* Rate.swift in Sources */,
+				9545846F27441A73006476F6 /* String+Extensions.swift in Sources */,
+				28CB6B9C27E67593007DBE33 /* main.swift in Sources */,
+				95555CF7271C33A30024A049 /* Transaction.swift in Sources */,
+				282118272819817E00B9E561 /* UIStoryboard+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95555C63271C2BDF0024A049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F8224F281E77C80018C4ED /* ProductListWireframeMock.swift in Sources */,
+				954E1633274278CA00190FF2 /* ServiceTests.swift in Sources */,
+				9545848B27450CC7006476F6 /* AppConstantsTests.swift in Sources */,
+				95C52F08272FF7DD005ED92D /* ArrayExtensionsTests.swift in Sources */,
+				07F82251281E782F0018C4ED /* ProductListPresenterMock.swift in Sources */,
+				28CB6B9E27E675A9007DBE33 /* TestingAppDelegate.swift in Sources */,
+				078728042819B1F500D1259D /* ProductListWireframeTests.swift in Sources */,
+				07F82247281E77890018C4ED /* ServiceMock.swift in Sources */,
+				07F8223F281E75930018C4ED /* ProductDetailsPresenterMock.swift in Sources */,
+				954FA78127307A8700AAFCDD /* CurrencyRatesTests.swift in Sources */,
+				9545852B2747B19A006476F6 /* AlertUtilsTests.swift in Sources */,
+				383213C8271DE7720044DA39 /* DecimalExtensionsTests.swift in Sources */,
+				07F8224B281E77A10018C4ED /* ProductListViewMock.swift in Sources */,
+				07F8224D281E77BA0018C4ED /* ProductListInteractorMock.swift in Sources */,
+				383213BD271DE0F10044DA39 /* FindMissingRatesTests.swift in Sources */,
+				954E16252741AD5500190FF2 /* ProductDetailsCellTests.swift in Sources */,
+				383213D8271DFD570044DA39 /* ProductDetailsInteractorTests.swift in Sources */,
+				954959E3273000E10094845D /* ProductDetailsPresenterTests.swift in Sources */,
+				07F82249281E77930018C4ED /* FindMissingRatesMock.swift in Sources */,
+				954E15B3273BEAAA00190FF2 /* ProductDetailsViewControllerTests.swift in Sources */,
+				07F82241281E75A20018C4ED /* ProductDetailsViewMock.swift in Sources */,
+				07F8223D281E757D0018C4ED /* UINavigationControllerMock.swift in Sources */,
+				954FA7712730754900AAFCDD /* ProductListInteractorTests.swift in Sources */,
+				95C52F10272FF9F1005ED92D /* ProductListPresenterTests.swift in Sources */,
+				954E15AE273BE68700190FF2 /* ProductListViewControllerTests.swift in Sources */,
+				954584CC2746B094006476F6 /* Result+Extensions.swift in Sources */,
+				07F82245281E75BE0018C4ED /* ProductDetailsWireframeMock.swift in Sources */,
+				9545847F27441C34006476F6 /* StringExtensionsTests.swift in Sources */,
+				07F82243281E75B00018C4ED /* ProductDetailsInteractorMock.swift in Sources */,
+				383213DE271E00420044DA39 /* TestData.swift in Sources */,
+				954584B627457A9B006476F6 /* TestHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95555C6E271C2BDF0024A049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95555C77271C2BDF0024A049 /* GoliathNationalBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95555C69271C2BDF0024A049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95555C50271C2BC80024A049 /* GoliathNationalBank */;
+			targetProxy = 95555C68271C2BDF0024A049 /* PBXContainerItemProxy */;
+		};
+		95555C74271C2BDF0024A049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95555C50271C2BC80024A049 /* GoliathNationalBank */;
+			targetProxy = 95555C73271C2BDF0024A049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95555C5A271C2BC80024A049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95555C5B271C2BC80024A049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95555C5F271C2BDE0024A049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95555C60271C2BDE0024A049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95555C79271C2BDF0024A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95555C7A271C2BDF0024A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95555C7C271C2BDF0024A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748E15DB2133E796745E05BE /* Pods-GoliathNationalBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4VK2TBY2;
+				INFOPLIST_FILE = GoliathNationalBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clloret.GoliathNationalBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95555C7D271C2BDF0024A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 682209618D01FE9304548B06 /* Pods-GoliathNationalBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4VK2TBY2;
+				INFOPLIST_FILE = GoliathNationalBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clloret.GoliathNationalBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		95555C7F271C2BDF0024A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CE9C883E1F0102CFAE769C /* Pods-GoliathNationalBankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4VK2TBY2;
+				INFOPLIST_FILE = GoliathNationalBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clloret.GoliathNationalBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoliathNationalBank.app/GoliathNationalBank";
+			};
+			name = Debug;
+		};
+		95555C80271C2BDF0024A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F76261B73FE3EEEE5D7033 /* Pods-GoliathNationalBankTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4VK2TBY2;
+				INFOPLIST_FILE = GoliathNationalBankTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clloret.GoliathNationalBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoliathNationalBank.app/GoliathNationalBank";
+			};
+			name = Release;
+		};
+		95555C82271C2BDF0024A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAD4D05E067A0E9D1E87141 /* Pods-GoliathNationalBank-GoliathNationalBankUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4VK2TBY2;
+				INFOPLIST_FILE = GoliathNationalBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clloret.GoliathNationalBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoliathNationalBank;
+			};
+			name = Debug;
+		};
+		95555C83271C2BDF0024A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AD1F2832C67F7699DA77BC /* Pods-GoliathNationalBank-GoliathNationalBankUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K4VK2TBY2;
+				INFOPLIST_FILE = GoliathNationalBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.clloret.GoliathNationalBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoliathNationalBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95555C4C271C2BC70024A049 /* Build configuration list for PBXProject "GoliathNationalBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95555C79271C2BDF0024A049 /* Debug */,
+				95555C7A271C2BDF0024A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95555C7B271C2BDF0024A049 /* Build configuration list for PBXNativeTarget "GoliathNationalBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95555C7C271C2BDF0024A049 /* Debug */,
+				95555C7D271C2BDF0024A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95555C7E271C2BDF0024A049 /* Build configuration list for PBXNativeTarget "GoliathNationalBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95555C7F271C2BDF0024A049 /* Debug */,
+				95555C80271C2BDF0024A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95555C81271C2BDF0024A049 /* Build configuration list for PBXNativeTarget "GoliathNationalBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95555C82271C2BDF0024A049 /* Debug */,
+				95555C83271C2BDF0024A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95555C49271C2BC70024A049 /* Project object */;
+}

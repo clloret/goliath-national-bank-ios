@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.4.2)
+  - CocoaDebug (1.7.2)
+  - OHHTTPStubs/Core (9.1.0)
+  - OHHTTPStubs/Default (9.1.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (9.1.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (9.1.0)
+  - OHHTTPStubs/Swift (9.1.0):
+    - OHHTTPStubs/Default
+  - SVProgressHUD (2.2.5)
+  - Swinject (2.8.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - CocoaDebug (~> 1.7)
+  - OHHTTPStubs/Swift (~> 9.1)
+  - SVProgressHUD (~> 2.2)
+  - Swinject (~> 2.8)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaDebug
+    - OHHTTPStubs
+    - SVProgressHUD
+    - Swinject
+
+SPEC CHECKSUMS:
+  Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
+  CocoaDebug: 61cf93ada6ce8f3407507dc01f9b874d91ac1d5c
+  OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+
+PODFILE CHECKSUM: f43d5e88bca7806bf30d7e178c43b7545600ea7f
+
+COCOAPODS: 1.11.3
